@@ -1,0 +1,19 @@
+{
+    "name": "hein/project",
+    "autoload": {
+        "psr-4": {
+            "Hein\\Project\\": "src/",
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers"
+        }
+    },
+    "authors": [
+        {
+            "name": "HMinLatt",
+            "email": "2004heinminlatt@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}

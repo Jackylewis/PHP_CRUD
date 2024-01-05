@@ -13,9 +13,9 @@ class MySQL {
 
     public function __construct(
         $dbhost="localhost",
-        $dbuser="root",
+        $dbuser="",
         $dbname="php_project",
-        $dbpass="admin",
+        $dbpass="",
     ){
         $this->dbhost= $dbhost;
         $this->dbname= $dbname;
